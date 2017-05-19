@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DraggableDynamicModal_Example' do
+  pod 'DraggableDynamicModal', :path => '../'
+
+  target 'DraggableDynamicModal_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
