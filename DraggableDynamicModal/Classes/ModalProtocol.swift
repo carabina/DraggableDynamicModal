@@ -19,7 +19,7 @@ protocol ModalContentHandlerProtocol {
     mutating func presentModal(viewController: UIViewController)
 }
 
-struct ModalViewControllerManager: ModalContentHandlerProtocol {
+public struct ModalViewControllerManager: ModalContentHandlerProtocol {
     // MARK: - Public
     var parentViewController: UIViewController! = nil
     
@@ -27,11 +27,11 @@ struct ModalViewControllerManager: ModalContentHandlerProtocol {
     private weak var childController: UIViewController? = nil
     private weak var modalParentViewController: ModalParentViewController!
     
-    init(parentViewController: UIViewController!) {
+    public init(parentViewController: UIViewController!) {
         self.parentViewController = parentViewController
     }
     
-    mutating func presentModal(viewController: UIViewController) {
+    public mutating func presentModal(viewController: UIViewController) {
         if self.modalParentViewController == nil {
             self.modalParentViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ModalParentViewController") as! ModalParentViewController
             modalParentViewController.providesPresentationContextTransitionStyle = true

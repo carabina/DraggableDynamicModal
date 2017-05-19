@@ -10,11 +10,11 @@ import Foundation
 import UIKit
 import ZFDragableModalTransition
 
-protocol ModalParentViewControllerProtocol: class {
+public protocol ModalParentViewControllerProtocol: class {
     func shouldChangeContainerHeight() -> CGFloat?
 }
 
-protocol ModalParentViewControllerLifecyleProtocol: class {
+public protocol ModalParentViewControllerLifecyleProtocol: class {
     func willDismissed()
 }
 

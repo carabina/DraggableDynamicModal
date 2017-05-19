@@ -1,51 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
-            <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DecathlonDraggableView" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jl9-oV-inc">
-                                <rect key="frame" x="16" y="120" width="343" height="30"/>
-                                <state key="normal" title="Open modal"/>
-                                <connections>
-                                    <action selector="openModal:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LD2-y8-Xdq"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstAttribute="trailing" secondItem="jl9-oV-inc" secondAttribute="trailing" constant="16" id="9YW-JZ-uG1"/>
-                            <constraint firstItem="jl9-oV-inc" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="100" id="K4t-XN-00F"/>
-                            <constraint firstItem="jl9-oV-inc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="WVG-Q4-ode"/>
-                            <constraint firstItem="jl9-oV-inc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tII-5d-Gid"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-            </objects>
-        </scene>
         <!--Modal Parent View Controller-->
         <scene sceneID="7Yh-P6-3t0">
             <objects>
-                <viewController storyboardIdentifier="ModalParentViewController" id="CtS-oy-pxH" customClass="ModalParentViewController" customModule="DecathlonDraggableView" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ModalParentViewController" id="CtS-oy-pxH" customClass="ModalParentViewController" customModule="DraggableDynamicModal" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="nvg-di-Y36"/>
                         <viewControllerLayoutGuide type="bottom" id="dBF-Ba-4Xf"/>
@@ -75,86 +41,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ktX-JD-WGa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="33" y="747"/>
-        </scene>
-        <!--Label Modal View Controller-->
-        <scene sceneID="Hwg-aS-oNV">
-            <objects>
-                <viewController storyboardIdentifier="Modal" id="giy-g3-OP3" customClass="LabelModalViewController" customModule="DecathlonDraggableView" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="olB-DV-wij"/>
-                        <viewControllerLayoutGuide type="bottom" id="5LV-Ep-WB4"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="ee0-MB-kOo">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="400"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xqr-Kg-vzd">
-                                <rect key="frame" x="32" y="96" width="311" height="288"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MHq-9e-IN3">
-                                <rect key="frame" x="32" y="36" width="311" height="44"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="80f-bw-Hnt"/>
-                                </constraints>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="switchMe:" destination="giy-g3-OP3" eventType="touchUpInside" id="3QQ-yt-Rk8"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" red="0.0" green="0.50980392159999999" blue="0.76470588240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="MHq-9e-IN3" firstAttribute="leading" secondItem="ee0-MB-kOo" secondAttribute="leadingMargin" constant="16" id="4IX-Ob-U3b"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="MHq-9e-IN3" secondAttribute="trailing" constant="16" id="Glf-30-7rN"/>
-                            <constraint firstItem="Xqr-Kg-vzd" firstAttribute="top" secondItem="MHq-9e-IN3" secondAttribute="bottom" constant="16" id="be0-HB-zEu"/>
-                            <constraint firstItem="5LV-Ep-WB4" firstAttribute="top" secondItem="Xqr-Kg-vzd" secondAttribute="bottom" constant="16" id="m6b-yY-vsv"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Xqr-Kg-vzd" secondAttribute="trailing" constant="16" id="rBV-Kx-N4I"/>
-                            <constraint firstItem="MHq-9e-IN3" firstAttribute="top" secondItem="olB-DV-wij" secondAttribute="bottom" constant="16" id="rMC-Kb-PLy"/>
-                            <constraint firstItem="Xqr-Kg-vzd" firstAttribute="leading" secondItem="ee0-MB-kOo" secondAttribute="leadingMargin" constant="16" id="xQm-9k-6uI"/>
-                        </constraints>
-                    </view>
-                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="375" height="400"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="hLF-cO-5Vd" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="736.79999999999995" y="32.383808095952027"/>
-        </scene>
-        <!--Validate View Controller-->
-        <scene sceneID="6Mf-DL-Zic">
-            <objects>
-                <viewController storyboardIdentifier="ValidateViewController" id="rXX-T4-e0F" customClass="ValidateViewController" customModule="DecathlonDraggableView" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="hxM-iP-kxr"/>
-                        <viewControllerLayoutGuide type="bottom" id="wUH-bA-F5c"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Iju-UD-7lC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Validé" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fK5-HE-Pbe">
-                                <rect key="frame" x="164" y="90" width="46.5" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="fK5-HE-Pbe" firstAttribute="centerX" secondItem="Iju-UD-7lC" secondAttribute="centerX" id="PuU-1L-GF4"/>
-                            <constraint firstItem="fK5-HE-Pbe" firstAttribute="centerY" secondItem="Iju-UD-7lC" secondAttribute="centerY" id="uWo-X1-Xyg"/>
-                        </constraints>
-                    </view>
-                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="375" height="200"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="gsa-kq-gHA" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1455" y="33"/>
+            <point key="canvasLocation" x="-404" y="571"/>
         </scene>
     </scenes>
 </document>
