@@ -1,5 +1,6 @@
 PODS:
-  - DraggableDynamicModal (0.1.0)
+  - DraggableDynamicModal (0.1.0):
+    - ZFDragableModalTransition
   - ZFDragableModalTransition (0.6)
 
 DEPENDENCIES:
@@ -11,9 +12,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DraggableDynamicModal: b61f00fd150956e7d71a446b8df6bf86998f24a5
+  DraggableDynamicModal: 483b534c7ae0f8f34f1c0fdc7e259b66b8261359
   ZFDragableModalTransition: 0d294eaaba6edfcb9839595de765f9ca06a4b524
 
-PODFILE CHECKSUM: 8ac448ee5a205c09e3539566c9c4e1f12e4e5ff6
+PODFILE CHECKSUM: 8f29cfe391e6163ac9a317f166f625d8dae9ac82
 
 COCOAPODS: 1.2.1

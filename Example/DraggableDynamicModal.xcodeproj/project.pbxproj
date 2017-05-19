@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41A70BA01ECF3F5F00BD042F /* LabelModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A70B9E1ECF3F5F00BD042F /* LabelModalViewController.swift */; };
+		41A70BA11ECF3F5F00BD042F /* ValidateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A70B9F1ECF3F5F00BD042F /* ValidateViewController.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -29,6 +31,8 @@
 
 /* Begin PBXFileReference section */
 		3151A7E5EF52A0150DF03FB7 /* Pods_DraggableDynamicModal_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DraggableDynamicModal_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41A70B9E1ECF3F5F00BD042F /* LabelModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelModalViewController.swift; sourceTree = "<group>"; };
+		41A70B9F1ECF3F5F00BD042F /* ValidateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidateViewController.swift; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* DraggableDynamicModal_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DraggableDynamicModal_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,12 +45,12 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		62DF90C820FD5E14644C6A30 /* Pods_DraggableDynamicModal_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DraggableDynamicModal_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DF5F6CEF8C3767620B9A78F /* Pods-DraggableDynamicModal_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DraggableDynamicModal_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DraggableDynamicModal_Example/Pods-DraggableDynamicModal_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A252CE9A9C6D01EFCE0F9947 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		C93ADA4818B8806CCD83B3C4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A252CE9A9C6D01EFCE0F9947 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C93ADA4818B8806CCD83B3C4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DDAC2C21963FAA18675BB37A /* Pods-DraggableDynamicModal_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DraggableDynamicModal_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DraggableDynamicModal_Tests/Pods-DraggableDynamicModal_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DF6F3E074C3961C6960794C0 /* Pods-DraggableDynamicModal_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DraggableDynamicModal_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-DraggableDynamicModal_Example/Pods-DraggableDynamicModal_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E74807BA82C23777D65E0E61 /* Pods-DraggableDynamicModal_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DraggableDynamicModal_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DraggableDynamicModal_Tests/Pods-DraggableDynamicModal_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		EC49B9653BE18E390946C6C9 /* DraggableDynamicModal.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DraggableDynamicModal.podspec; path = ../DraggableDynamicModal.podspec; sourceTree = "<group>"; };
+		EC49B9653BE18E390946C6C9 /* DraggableDynamicModal.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DraggableDynamicModal.podspec; path = ../DraggableDynamicModal.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				41A70B9E1ECF3F5F00BD042F /* LabelModalViewController.swift */,
+				41A70B9F1ECF3F5F00BD042F /* ValidateViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -361,7 +367,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41A70BA11ECF3F5F00BD042F /* ValidateViewController.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				41A70BA01ECF3F5F00BD042F /* LabelModalViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -443,7 +451,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -483,7 +491,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
