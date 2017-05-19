@@ -1,0 +1,22 @@
+{
+  "name": "DraggableDynamicModal",
+  "version": "0.1.0",
+  "summary": "A short description of DraggableDynamicModal.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ali59a/DraggableDynamicModal",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ali59a": "aabbas90@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/ali59a/DraggableDynamicModal.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DraggableDynamicModal/Classes/**/*"
+}
