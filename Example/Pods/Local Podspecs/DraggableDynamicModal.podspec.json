@@ -18,7 +18,12 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "DraggableDynamicModal/Classes/**/*",
+  "source_files": "DraggableDynamicModal/Classes/**/*.{Swift}",
+  "resource_bundles": {
+    "DraggableDynamicModal": [
+      "DraggableDynamicModal/Classes/*.{storyboard}"
+    ]
+  },
   "frameworks": "UIKit",
   "dependencies": {
     "ZFDragableModalTransition": [

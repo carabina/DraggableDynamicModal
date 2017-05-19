@@ -7,82 +7,89 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03F21707A3F1DAD515F9232D769AE3F3 /* Main.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = 770AA34E2D813DEF9A886F5E1794CA15 /* Main.storyboard */; };
-		09DFE5D16CD70FA258CF6E7DA533EF2B /* DraggableDynamicModal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBAEA956AC0D1DA239287FBD54F0825 /* DraggableDynamicModal-dummy.m */; };
-		1B16320DDD81A090479CF9069949BBAA /* ModalParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A8600566DD23A9CF681D6A7D1CC9B8 /* ModalParentViewController.swift */; };
-		47EBE714563885002A65022BFC21680B /* ModalProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184BD49986470106B8AB4059BFC7805D /* ModalProtocol.swift */; };
-		62465D60BBFB52DE1F1A6A0D1A984214 /* ZFModalTransitionAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = C8D1F53977AFF234BC2A0709885D226B /* ZFModalTransitionAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		641F50A938784DBDBD6DEA5BC657FE1F /* ZFModalTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = C4AAADB18B3F99F475C7AA0C3CA5DE8E /* ZFModalTransitionAnimator.m */; };
+		023D206210249FD8BFB3A3E2C3CFC4BC /* ModalProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07330A7C35E86B693479F74A63B8531F /* ModalProtocol.swift */; };
+		04EBAE143620DDECD6174BEB4615DD54 /* ZFModalTransitionAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = C8D1F53977AFF234BC2A0709885D226B /* ZFModalTransitionAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3290FF4A4616B68BF97BD596AC4D78B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB0D8B01C866255D66AE2DA0418C7D7C /* Foundation.framework */; };
+		3DC23DDAE04ECD11A434672F975A39F9 /* DraggableDynamicModal-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A40BDB575E5317ABB8FCFC04DDC44B01 /* DraggableDynamicModal-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DE42470617876F389359AF0350B0768 /* DraggableDynamicModal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9472A7B10706F4E9BBA706AD86CA0135 /* DraggableDynamicModal-dummy.m */; };
+		69FE18698611A16507C3C60400AD17CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB0D8B01C866255D66AE2DA0418C7D7C /* Foundation.framework */; };
 		6C7DEE2F5A7C2B3E67FD03D76F623E8A /* Pods-DraggableDynamicModal_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B26A005C41DBEE1491F617AB265EA00 /* Pods-DraggableDynamicModal_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		904F42E819DDB998DD48DCECD71C5A09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB0D8B01C866255D66AE2DA0418C7D7C /* Foundation.framework */; };
+		87784C225E612AAD558E63892DB04EC2 /* ZFDragableModalTransition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88174A491983328F674BC3C6410732BF /* ZFDragableModalTransition-dummy.m */; };
+		8BD55853532D516A01D94D4788207156 /* ZFDragableModalTransition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2810D0AA251642ABDEE60A2961CA2EB0 /* ZFDragableModalTransition.framework */; };
+		8DEB683FC21D6AE8337D1ACCA9DB4C4A /* ModalParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE369126952C4399D7161F79B57B3E3E /* ModalParentViewController.swift */; };
 		9092A1C519D55246A165147F877DFB85 /* Pods-DraggableDynamicModal_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21006835365FA54D236DF03B287DCD8A /* Pods-DraggableDynamicModal_Tests-dummy.m */; };
-		9CF28C8D4AB7CA0A75FE678754EF0F5E /* DraggableDynamicModal-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2108A0F195843B351EBA25E23EA0A6EA /* DraggableDynamicModal-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9655C654325243F6FCD8ECCE4E5CBD81 /* DraggableDynamicModal.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EC3A90948650AF34418860FB743460F9 /* DraggableDynamicModal.bundle */; };
 		A491362A0ED7A99CFD521C651D2DADCA /* Pods-DraggableDynamicModal_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C5A0A409B3E5097C0DC1525D1DEE0A4 /* Pods-DraggableDynamicModal_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AECC935EDB5654719D6ACE12F11F7486 /* ZFDragableModalTransition-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE39518C290F4277C604D5ECF94B2BC8 /* ZFDragableModalTransition-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B70389E9AD2412C6BDFF14FA1F65C0B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECEC96B4B65E8BABF0DEEA4CFAD585FE /* UIKit.framework */; };
+		C5E0429CDF2ED76DC8058BBF5CF6AA34 /* DraggableDynamicModal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7347E7A21DAB321A678C9308536D227C /* DraggableDynamicModal.storyboard */; };
 		C9B595568E8D7FFF21FB79CDD85783BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB0D8B01C866255D66AE2DA0418C7D7C /* Foundation.framework */; };
 		D1D6AF28896E62B330F3AA81FF93E43C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB0D8B01C866255D66AE2DA0418C7D7C /* Foundation.framework */; };
 		DC662E390B708BD89791A89B7C457230 /* Pods-DraggableDynamicModal_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B644C2B4BD89CCFF142AE7F6DC28459 /* Pods-DraggableDynamicModal_Example-dummy.m */; };
-		E924D39D9152A798170E87EE0093C9B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB0D8B01C866255D66AE2DA0418C7D7C /* Foundation.framework */; };
-		EC66DBC20984E40602A2B3E2B5859473 /* ZFDragableModalTransition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2810D0AA251642ABDEE60A2961CA2EB0 /* ZFDragableModalTransition.framework */; };
-		EE0684BED69AA4AD09E1486120ACCB99 /* ZFDragableModalTransition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88174A491983328F674BC3C6410732BF /* ZFDragableModalTransition-dummy.m */; };
+		E8F344AD65FE05CF42885B7A1EE8E1E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECEC96B4B65E8BABF0DEEA4CFAD585FE /* UIKit.framework */; };
+		EAACAC91E323D95A3A5A7EF7B7536146 /* ZFDragableModalTransition-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE39518C290F4277C604D5ECF94B2BC8 /* ZFDragableModalTransition-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD15963B1AFCB8A39462629A68ADF488 /* ZFModalTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = C4AAADB18B3F99F475C7AA0C3CA5DE8E /* ZFModalTransitionAnimator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		38DDC392BC25E7F6EFC867FC20F832E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3615CCA050B394E2504C6DD319AE409;
+			remoteInfo = ZFDragableModalTransition;
+		};
 		428C6F619FDA2D4D9432966658DBD00C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 697DA6359D1E6FCBFF8880B581B9B4AF;
-			remoteInfo = ZFDragableModalTransition;
-		};
-		5BDCA5918937AAAE78648390FEDE8A1A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 697DA6359D1E6FCBFF8880B581B9B4AF;
+			remoteGlobalIDString = F3615CCA050B394E2504C6DD319AE409;
 			remoteInfo = ZFDragableModalTransition;
 		};
 		F80BCA5E4A2C81DC4162B1EB0921FE2E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = ED068C4AE0C41D9D78FB8A4ED43DC03A;
+			remoteGlobalIDString = 31DB0F5E46F39F1BA5325ABE9C7E39AA;
 			remoteInfo = DraggableDynamicModal;
+		};
+		FE59523D78B3058FAD4345E8C0940227 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB594F820F9D7D3BA0E8817E41A127F5;
+			remoteInfo = "DraggableDynamicModal-DraggableDynamicModal";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07330A7C35E86B693479F74A63B8531F /* ModalProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ModalProtocol.swift; sourceTree = "<group>"; };
 		0B5BF7AB9DADC0431901C281BF8746E6 /* Pods-DraggableDynamicModal_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DraggableDynamicModal_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		184BD49986470106B8AB4059BFC7805D /* ModalProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ModalProtocol.swift; sourceTree = "<group>"; };
+		0FEC50E85D8FE85569991D166555DC5D /* ResourceBundle-DraggableDynamicModal-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-DraggableDynamicModal-Info.plist"; sourceTree = "<group>"; };
+		18CDF20F849E431C35707C37EB15ACA3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A3453C52C00C432A879FE1D31628BF0 /* Pods_DraggableDynamicModal_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DraggableDynamicModal_Example.framework; path = "Pods-DraggableDynamicModal_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F352D78DE3CB5C9DE601DF507F756AB /* Pods_DraggableDynamicModal_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DraggableDynamicModal_Tests.framework; path = "Pods-DraggableDynamicModal_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21006835365FA54D236DF03B287DCD8A /* Pods-DraggableDynamicModal_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DraggableDynamicModal_Tests-dummy.m"; sourceTree = "<group>"; };
-		2108A0F195843B351EBA25E23EA0A6EA /* DraggableDynamicModal-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DraggableDynamicModal-umbrella.h"; sourceTree = "<group>"; };
 		25E0FCEEBED218BCAE699228A7AD071C /* Pods-DraggableDynamicModal_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DraggableDynamicModal_Example-resources.sh"; sourceTree = "<group>"; };
 		2729AE2E1C32B5A0466D810442B924C3 /* ZFDragableModalTransition.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZFDragableModalTransition.xcconfig; sourceTree = "<group>"; };
 		2810D0AA251642ABDEE60A2961CA2EB0 /* ZFDragableModalTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZFDragableModalTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2AB63395A8CF0AB4A4F7F5B6D05B02F7 /* DraggableDynamicModal.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DraggableDynamicModal.modulemap; sourceTree = "<group>"; };
 		2B26A005C41DBEE1491F617AB265EA00 /* Pods-DraggableDynamicModal_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DraggableDynamicModal_Example-umbrella.h"; sourceTree = "<group>"; };
-		32337DC2AADBD00D3B40287DA1755416 /* ZFDragableModalTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZFDragableModalTransition.framework; path = ZFDragableModalTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		32EE0CB66C4F3A1738A3138506EE6CA5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		425642A3659EC3488E1CDE2F5C71EE2B /* Pods-DraggableDynamicModal_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DraggableDynamicModal_Tests.modulemap"; sourceTree = "<group>"; };
 		4501D768713F0F44B74FA0DF66D0DBEA /* Pods-DraggableDynamicModal_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DraggableDynamicModal_Example.modulemap"; sourceTree = "<group>"; };
+		4B24FB4A7831926E43ED6C28CCBD3AAE /* ZFDragableModalTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZFDragableModalTransition.framework; path = ZFDragableModalTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B644C2B4BD89CCFF142AE7F6DC28459 /* Pods-DraggableDynamicModal_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DraggableDynamicModal_Example-dummy.m"; sourceTree = "<group>"; };
-		5DC80F9449269F16F696E250729C36CF /* DraggableDynamicModal.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DraggableDynamicModal.xcconfig; sourceTree = "<group>"; };
 		6C5A0A409B3E5097C0DC1525D1DEE0A4 /* Pods-DraggableDynamicModal_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DraggableDynamicModal_Tests-umbrella.h"; sourceTree = "<group>"; };
 		6E999C09C3420C83F1AC37B2CAEF8AA3 /* Pods-DraggableDynamicModal_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DraggableDynamicModal_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		71A8600566DD23A9CF681D6A7D1CC9B8 /* ModalParentViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ModalParentViewController.swift; sourceTree = "<group>"; };
+		7347E7A21DAB321A678C9308536D227C /* DraggableDynamicModal.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = DraggableDynamicModal.storyboard; sourceTree = "<group>"; };
 		74522ABED20333A1F374069214C45F6E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		770AA34E2D813DEF9A886F5E1794CA15 /* Main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		846B40CF611446A92EB08B0E33F2877D /* Pods-DraggableDynamicModal_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DraggableDynamicModal_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		861060E8ED9306FB435E3E0AB3B99916 /* ZFDragableModalTransition.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ZFDragableModalTransition.modulemap; sourceTree = "<group>"; };
-		86BE8BCC4FC5CAE23C9E9E4F26A2E3B4 /* Pods_DraggableDynamicModal_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DraggableDynamicModal_Tests.framework; path = "Pods-DraggableDynamicModal_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88174A491983328F674BC3C6410732BF /* ZFDragableModalTransition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZFDragableModalTransition-dummy.m"; sourceTree = "<group>"; };
 		88CEC7E6B502B04461B2D788293E0530 /* Pods-DraggableDynamicModal_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DraggableDynamicModal_Example.release.xcconfig"; sourceTree = "<group>"; };
-		89BF507A16278A6F3647E8F28E490EFD /* DraggableDynamicModal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DraggableDynamicModal.framework; path = DraggableDynamicModal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		937C21DB966F565C568DEE15BD034D37 /* DraggableDynamicModal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DraggableDynamicModal.framework; path = DraggableDynamicModal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9472A7B10706F4E9BBA706AD86CA0135 /* DraggableDynamicModal-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DraggableDynamicModal-dummy.m"; sourceTree = "<group>"; };
 		95957C7EF6BF11704B785090B72830D9 /* Pods-DraggableDynamicModal_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DraggableDynamicModal_Tests-resources.sh"; sourceTree = "<group>"; };
-		97EA1BAB9EEA141A6B7F423768C7EC9D /* Pods_DraggableDynamicModal_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DraggableDynamicModal_Example.framework; path = "Pods-DraggableDynamicModal_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9991B599C1BED022B10028CE6AB3FD1E /* DraggableDynamicModal-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DraggableDynamicModal-prefix.pch"; sourceTree = "<group>"; };
+		A40BDB575E5317ABB8FCFC04DDC44B01 /* DraggableDynamicModal-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DraggableDynamicModal-umbrella.h"; sourceTree = "<group>"; };
 		A78EA28168D8B3AE69029B00359A8385 /* Pods-DraggableDynamicModal_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DraggableDynamicModal_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		B3465184070F98C599091EF756536EA4 /* Pods-DraggableDynamicModal_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DraggableDynamicModal_Example-frameworks.sh"; sourceTree = "<group>"; };
 		BE9A044E7CF5215F9DF2A7BFD34A14A6 /* Pods-DraggableDynamicModal_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DraggableDynamicModal_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -94,13 +101,31 @@
 		CB86F973F98B710037EBE77098D4825E /* Pods-DraggableDynamicModal_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DraggableDynamicModal_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		CBA56588D0E682A75AE6F4CBD9C20EC6 /* Pods-DraggableDynamicModal_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DraggableDynamicModal_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D66DAB70F6F4A3AFA08C6A5F3225A8DC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D7DEF16488840076F99FD45125A8E9AB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE39518C290F4277C604D5ECF94B2BC8 /* ZFDragableModalTransition-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZFDragableModalTransition-umbrella.h"; sourceTree = "<group>"; };
+		DE75A08B0E7427BFCD2731DFB56AD467 /* DraggableDynamicModal.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DraggableDynamicModal.modulemap; sourceTree = "<group>"; };
+		EC3A90948650AF34418860FB743460F9 /* DraggableDynamicModal.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = DraggableDynamicModal.bundle; path = DraggableDynamicModal.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECEC96B4B65E8BABF0DEEA4CFAD585FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		FCBAEA956AC0D1DA239287FBD54F0825 /* DraggableDynamicModal-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DraggableDynamicModal-dummy.m"; sourceTree = "<group>"; };
+		EDCCC608B02C57594F5962788EABC5F9 /* DraggableDynamicModal.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DraggableDynamicModal.xcconfig; sourceTree = "<group>"; };
+		F314C9F5CBCADA2DB378E924936E9965 /* DraggableDynamicModal-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DraggableDynamicModal-prefix.pch"; sourceTree = "<group>"; };
+		FE369126952C4399D7161F79B57B3E3E /* ModalParentViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ModalParentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		042A7223D1D60EF5C39471AF952B27D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0962F3C4AD940DEEBDA5E43F6E6B38CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3290FF4A4616B68BF97BD596AC4D78B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3654E86632BD10EA7A1DE7916DAF1C42 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -109,21 +134,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A97DCF3C6E69A29FD053CB59FA57534D /* Frameworks */ = {
+		C185BF75A26C7713D94A55CE24734521 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E924D39D9152A798170E87EE0093C9B8 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D228F47B482FA0BE179DF795BFE2E80E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				904F42E819DDB998DD48DCECD71C5A09 /* Foundation.framework in Frameworks */,
-				B70389E9AD2412C6BDFF14FA1F65C0B6 /* UIKit.framework in Frameworks */,
-				EC66DBC20984E40602A2B3E2B5859473 /* ZFDragableModalTransition.framework in Frameworks */,
+				69FE18698611A16507C3C60400AD17CF /* Foundation.framework in Frameworks */,
+				E8F344AD65FE05CF42885B7A1EE8E1E6 /* UIKit.framework in Frameworks */,
+				8BD55853532D516A01D94D4788207156 /* ZFDragableModalTransition.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +164,18 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		14D5FF45DFE6E99C17FBC7735C1F110A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC3A90948650AF34418860FB743460F9 /* DraggableDynamicModal.bundle */,
+				937C21DB966F565C568DEE15BD034D37 /* DraggableDynamicModal.framework */,
+				1A3453C52C00C432A879FE1D31628BF0 /* Pods_DraggableDynamicModal_Example.framework */,
+				1F352D78DE3CB5C9DE601DF507F756AB /* Pods_DraggableDynamicModal_Tests.framework */,
+				4B24FB4A7831926E43ED6C28CCBD3AAE /* ZFDragableModalTransition.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		306F77C9D6FA3FC96F0EFE0BB0E3F829 /* ZFDragableModalTransition */ = {
 			isa = PBXGroup;
 			children = (
@@ -158,23 +187,22 @@
 			path = ZFDragableModalTransition;
 			sourceTree = "<group>";
 		};
-		491C2679382E2169623DD0ECF1348318 /* Products */ = {
+		49C8F516292EAA641DFB6FAD6EF2D0A8 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				89BF507A16278A6F3647E8F28E490EFD /* DraggableDynamicModal.framework */,
-				97EA1BAB9EEA141A6B7F423768C7EC9D /* Pods_DraggableDynamicModal_Example.framework */,
-				86BE8BCC4FC5CAE23C9E9E4F26A2E3B4 /* Pods_DraggableDynamicModal_Tests.framework */,
-				32337DC2AADBD00D3B40287DA1755416 /* ZFDragableModalTransition.framework */,
+				FE369126952C4399D7161F79B57B3E3E /* ModalParentViewController.swift */,
+				07330A7C35E86B693479F74A63B8531F /* ModalProtocol.swift */,
 			);
-			name = Products;
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		4BB56F9FBC3C9D8FA7C11112176C5504 /* Development Pods */ = {
+		4BF584A235631A0FA81EA74A3FFCB25E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				CDAA956E1593D0AA568C5A6C353BA1B0 /* DraggableDynamicModal */,
+				F7B212990AFAD541DFF99BD5B011F23F /* DraggableDynamicModal */,
 			);
-			name = "Development Pods";
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		5306366767C76AE7BD02961E9EE0673D /* Pods */ = {
@@ -192,6 +220,17 @@
 				B23FFF5807A1079A3E20D24BC1C22B91 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68354ACD29A325D8EF64CA0B446154C6 /* DraggableDynamicModal */ = {
+			isa = PBXGroup;
+			children = (
+				F3565D9D144F3A55AFEA666F326FEFD5 /* DraggableDynamicModal */,
+				4BF584A235631A0FA81EA74A3FFCB25E /* Resources */,
+				C3E87ECEE67034E3BCF75B76385DF2DA /* Support Files */,
+			);
+			name = DraggableDynamicModal;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		75400AE9E5B10DF5D751EE11285D429A /* Pods-DraggableDynamicModal_Tests */ = {
@@ -216,10 +255,10 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				4BB56F9FBC3C9D8FA7C11112176C5504 /* Development Pods */,
+				91FEF31CEA06D69E0B29916725F8CEF2 /* Development Pods */,
 				659D6901F38EDE016B790E544736ADA2 /* Frameworks */,
 				5306366767C76AE7BD02961E9EE0673D /* Pods */,
-				491C2679382E2169623DD0ECF1348318 /* Products */,
+				14D5FF45DFE6E99C17FBC7735C1F110A /* Products */,
 				03ADF40E2BA48A2B078D1C969D85E9C9 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -242,29 +281,12 @@
 			path = "Target Support Files/Pods-DraggableDynamicModal_Example";
 			sourceTree = "<group>";
 		};
-		AB6057B8E1742927CE180614E749BD82 /* Classes */ = {
+		91FEF31CEA06D69E0B29916725F8CEF2 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				770AA34E2D813DEF9A886F5E1794CA15 /* Main.storyboard */,
-				71A8600566DD23A9CF681D6A7D1CC9B8 /* ModalParentViewController.swift */,
-				184BD49986470106B8AB4059BFC7805D /* ModalProtocol.swift */,
+				68354ACD29A325D8EF64CA0B446154C6 /* DraggableDynamicModal */,
 			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		B077A20FD1E9F538215058B011B65085 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2AB63395A8CF0AB4A4F7F5B6D05B02F7 /* DraggableDynamicModal.modulemap */,
-				5DC80F9449269F16F696E250729C36CF /* DraggableDynamicModal.xcconfig */,
-				FCBAEA956AC0D1DA239287FBD54F0825 /* DraggableDynamicModal-dummy.m */,
-				9991B599C1BED022B10028CE6AB3FD1E /* DraggableDynamicModal-prefix.pch */,
-				2108A0F195843B351EBA25E23EA0A6EA /* DraggableDynamicModal-umbrella.h */,
-				D7DEF16488840076F99FD45125A8E9AB /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/DraggableDynamicModal";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		B23FFF5807A1079A3E20D24BC1C22B91 /* iOS */ = {
@@ -274,15 +296,6 @@
 				ECEC96B4B65E8BABF0DEEA4CFAD585FE /* UIKit.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		B62B2C47FBC5C8C1937DE452949FB34A /* DraggableDynamicModal */ = {
-			isa = PBXGroup;
-			children = (
-				AB6057B8E1742927CE180614E749BD82 /* Classes */,
-			);
-			name = DraggableDynamicModal;
-			path = DraggableDynamicModal;
 			sourceTree = "<group>";
 		};
 		BCA96A6753FAEC1990369ADA9683FCB9 /* Support Files */ = {
@@ -299,14 +312,46 @@
 			path = "../Target Support Files/ZFDragableModalTransition";
 			sourceTree = "<group>";
 		};
-		CDAA956E1593D0AA568C5A6C353BA1B0 /* DraggableDynamicModal */ = {
+		C3E87ECEE67034E3BCF75B76385DF2DA /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B62B2C47FBC5C8C1937DE452949FB34A /* DraggableDynamicModal */,
-				B077A20FD1E9F538215058B011B65085 /* Support Files */,
+				DE75A08B0E7427BFCD2731DFB56AD467 /* DraggableDynamicModal.modulemap */,
+				EDCCC608B02C57594F5962788EABC5F9 /* DraggableDynamicModal.xcconfig */,
+				9472A7B10706F4E9BBA706AD86CA0135 /* DraggableDynamicModal-dummy.m */,
+				F314C9F5CBCADA2DB378E924936E9965 /* DraggableDynamicModal-prefix.pch */,
+				A40BDB575E5317ABB8FCFC04DDC44B01 /* DraggableDynamicModal-umbrella.h */,
+				18CDF20F849E431C35707C37EB15ACA3 /* Info.plist */,
+				0FEC50E85D8FE85569991D166555DC5D /* ResourceBundle-DraggableDynamicModal-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DraggableDynamicModal";
+			sourceTree = "<group>";
+		};
+		E704B791E7750DB1B3FD7975FA44DCD7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7347E7A21DAB321A678C9308536D227C /* DraggableDynamicModal.storyboard */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F3565D9D144F3A55AFEA666F326FEFD5 /* DraggableDynamicModal */ = {
+			isa = PBXGroup;
+			children = (
+				49C8F516292EAA641DFB6FAD6EF2D0A8 /* Classes */,
 			);
 			name = DraggableDynamicModal;
-			path = ../..;
+			path = DraggableDynamicModal;
+			sourceTree = "<group>";
+		};
+		F7B212990AFAD541DFF99BD5B011F23F /* DraggableDynamicModal */ = {
+			isa = PBXGroup;
+			children = (
+				E704B791E7750DB1B3FD7975FA44DCD7 /* Classes */,
+			);
+			name = DraggableDynamicModal;
+			path = DraggableDynamicModal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -328,20 +373,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		88869D86A247DC2BA6BE162233B99560 /* Headers */ = {
+		A88C686D5283F7D9202E9D00EBD8E374 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AECC935EDB5654719D6ACE12F11F7486 /* ZFDragableModalTransition-umbrella.h in Headers */,
-				62465D60BBFB52DE1F1A6A0D1A984214 /* ZFModalTransitionAnimator.h in Headers */,
+				EAACAC91E323D95A3A5A7EF7B7536146 /* ZFDragableModalTransition-umbrella.h in Headers */,
+				04EBAE143620DDECD6174BEB4615DD54 /* ZFModalTransitionAnimator.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9934984BE347992E3A9F84A944EABC96 /* Headers */ = {
+		E0447AE801568B3345ECDA2DD467D9DA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CF28C8D4AB7CA0A75FE678754EF0F5E /* DraggableDynamicModal-umbrella.h in Headers */,
+				3DC23DDAE04ECD11A434672F975A39F9 /* DraggableDynamicModal-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,24 +409,27 @@
 			);
 			name = "Pods-DraggableDynamicModal_Example";
 			productName = "Pods-DraggableDynamicModal_Example";
-			productReference = 97EA1BAB9EEA141A6B7F423768C7EC9D /* Pods_DraggableDynamicModal_Example.framework */;
+			productReference = 1A3453C52C00C432A879FE1D31628BF0 /* Pods_DraggableDynamicModal_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		697DA6359D1E6FCBFF8880B581B9B4AF /* ZFDragableModalTransition */ = {
+		31DB0F5E46F39F1BA5325ABE9C7E39AA /* DraggableDynamicModal */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 19582FEB4B562486DA09E779F398F5E0 /* Build configuration list for PBXNativeTarget "ZFDragableModalTransition" */;
+			buildConfigurationList = 071A6E304FEA48860A5430E87832B374 /* Build configuration list for PBXNativeTarget "DraggableDynamicModal" */;
 			buildPhases = (
-				04CA1B8D7FE7008BE06EF921C75AB622 /* Sources */,
-				A97DCF3C6E69A29FD053CB59FA57534D /* Frameworks */,
-				88869D86A247DC2BA6BE162233B99560 /* Headers */,
+				E4C54389D5F8140F815ABEF140542694 /* Sources */,
+				C185BF75A26C7713D94A55CE24734521 /* Frameworks */,
+				02906670D38A412CD1E7B38601B1D49B /* Resources */,
+				E0447AE801568B3345ECDA2DD467D9DA /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8174C3C5C01AA665ED386B82CEE48C96 /* PBXTargetDependency */,
+				2C0CCDDE73A4615ED0F4A1A0B9B82B67 /* PBXTargetDependency */,
 			);
-			name = ZFDragableModalTransition;
-			productName = ZFDragableModalTransition;
-			productReference = 32337DC2AADBD00D3B40287DA1755416 /* ZFDragableModalTransition.framework */;
+			name = DraggableDynamicModal;
+			productName = DraggableDynamicModal;
+			productReference = 937C21DB966F565C568DEE15BD034D37 /* DraggableDynamicModal.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		6AEB03935276073E512FC01362C79F94 /* Pods-DraggableDynamicModal_Tests */ = {
@@ -398,26 +446,42 @@
 			);
 			name = "Pods-DraggableDynamicModal_Tests";
 			productName = "Pods-DraggableDynamicModal_Tests";
-			productReference = 86BE8BCC4FC5CAE23C9E9E4F26A2E3B4 /* Pods_DraggableDynamicModal_Tests.framework */;
+			productReference = 1F352D78DE3CB5C9DE601DF507F756AB /* Pods_DraggableDynamicModal_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		ED068C4AE0C41D9D78FB8A4ED43DC03A /* DraggableDynamicModal */ = {
+		F3615CCA050B394E2504C6DD319AE409 /* ZFDragableModalTransition */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8AFC869609E993E16B2BCE931345F12E /* Build configuration list for PBXNativeTarget "DraggableDynamicModal" */;
+			buildConfigurationList = 34541109E2EC628CB256DBB183DBD996 /* Build configuration list for PBXNativeTarget "ZFDragableModalTransition" */;
 			buildPhases = (
-				0CFCC5299913EDB2DD325AEAB9CC9360 /* Sources */,
-				D228F47B482FA0BE179DF795BFE2E80E /* Frameworks */,
-				9934984BE347992E3A9F84A944EABC96 /* Headers */,
+				1230C7D9AD41D37679DBD999EAA846AE /* Sources */,
+				0962F3C4AD940DEEBDA5E43F6E6B38CD /* Frameworks */,
+				A88C686D5283F7D9202E9D00EBD8E374 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D6D66F07614F656CA1F697D58E36208A /* PBXTargetDependency */,
 			);
-			name = DraggableDynamicModal;
-			productName = DraggableDynamicModal;
-			productReference = 89BF507A16278A6F3647E8F28E490EFD /* DraggableDynamicModal.framework */;
+			name = ZFDragableModalTransition;
+			productName = ZFDragableModalTransition;
+			productReference = 4B24FB4A7831926E43ED6C28CCBD3AAE /* ZFDragableModalTransition.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		FB594F820F9D7D3BA0E8817E41A127F5 /* DraggableDynamicModal-DraggableDynamicModal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D11EE7BFB3722C13E2F12A09459FB14E /* Build configuration list for PBXNativeTarget "DraggableDynamicModal-DraggableDynamicModal" */;
+			buildPhases = (
+				5E29DB8CF1BF9DA5272FA3B5D559D49C /* Sources */,
+				042A7223D1D60EF5C39471AF952B27D9 /* Frameworks */,
+				3338AD46DC507FCA524A3A0A5425D0EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DraggableDynamicModal-DraggableDynamicModal";
+			productName = "DraggableDynamicModal-DraggableDynamicModal";
+			productReference = EC3A90948650AF34418860FB743460F9 /* DraggableDynamicModal.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -436,36 +500,45 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 491C2679382E2169623DD0ECF1348318 /* Products */;
+			productRefGroup = 14D5FF45DFE6E99C17FBC7735C1F110A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ED068C4AE0C41D9D78FB8A4ED43DC03A /* DraggableDynamicModal */,
+				31DB0F5E46F39F1BA5325ABE9C7E39AA /* DraggableDynamicModal */,
+				FB594F820F9D7D3BA0E8817E41A127F5 /* DraggableDynamicModal-DraggableDynamicModal */,
 				075571FE078E6E7F8C1F0B579DD7420D /* Pods-DraggableDynamicModal_Example */,
 				6AEB03935276073E512FC01362C79F94 /* Pods-DraggableDynamicModal_Tests */,
-				697DA6359D1E6FCBFF8880B581B9B4AF /* ZFDragableModalTransition */,
+				F3615CCA050B394E2504C6DD319AE409 /* ZFDragableModalTransition */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXSourcesBuildPhase section */
-		04CA1B8D7FE7008BE06EF921C75AB622 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+/* Begin PBXResourcesBuildPhase section */
+		02906670D38A412CD1E7B38601B1D49B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE0684BED69AA4AD09E1486120ACCB99 /* ZFDragableModalTransition-dummy.m in Sources */,
-				641F50A938784DBDBD6DEA5BC657FE1F /* ZFModalTransitionAnimator.m in Sources */,
+				9655C654325243F6FCD8ECCE4E5CBD81 /* DraggableDynamicModal.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0CFCC5299913EDB2DD325AEAB9CC9360 /* Sources */ = {
+		3338AD46DC507FCA524A3A0A5425D0EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5E0429CDF2ED76DC8058BBF5CF6AA34 /* DraggableDynamicModal.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1230C7D9AD41D37679DBD999EAA846AE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09DFE5D16CD70FA258CF6E7DA533EF2B /* DraggableDynamicModal-dummy.m in Sources */,
-				03F21707A3F1DAD515F9232D769AE3F3 /* Main.storyboard in Sources */,
-				1B16320DDD81A090479CF9069949BBAA /* ModalParentViewController.swift in Sources */,
-				47EBE714563885002A65022BFC21680B /* ModalProtocol.swift in Sources */,
+				87784C225E612AAD558E63892DB04EC2 /* ZFDragableModalTransition-dummy.m in Sources */,
+				FD15963B1AFCB8A39462629A68ADF488 /* ZFModalTransitionAnimator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +547,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				9092A1C519D55246A165147F877DFB85 /* Pods-DraggableDynamicModal_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E29DB8CF1BF9DA5272FA3B5D559D49C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4C54389D5F8140F815ABEF140542694 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DE42470617876F389359AF0350B0768 /* DraggableDynamicModal-dummy.m in Sources */,
+				8DEB683FC21D6AE8337D1ACCA9DB4C4A /* ModalParentViewController.swift in Sources */,
+				023D206210249FD8BFB3A3E2C3CFC4BC /* ModalProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,27 +578,69 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		2C0CCDDE73A4615ED0F4A1A0B9B82B67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZFDragableModalTransition;
+			target = F3615CCA050B394E2504C6DD319AE409 /* ZFDragableModalTransition */;
+			targetProxy = 38DDC392BC25E7F6EFC867FC20F832E9 /* PBXContainerItemProxy */;
+		};
 		43A9FCD3C1698E4702CDD90EC9753034 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DraggableDynamicModal;
-			target = ED068C4AE0C41D9D78FB8A4ED43DC03A /* DraggableDynamicModal */;
+			target = 31DB0F5E46F39F1BA5325ABE9C7E39AA /* DraggableDynamicModal */;
 			targetProxy = F80BCA5E4A2C81DC4162B1EB0921FE2E /* PBXContainerItemProxy */;
 		};
-		D6D66F07614F656CA1F697D58E36208A /* PBXTargetDependency */ = {
+		8174C3C5C01AA665ED386B82CEE48C96 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = ZFDragableModalTransition;
-			target = 697DA6359D1E6FCBFF8880B581B9B4AF /* ZFDragableModalTransition */;
-			targetProxy = 5BDCA5918937AAAE78648390FEDE8A1A /* PBXContainerItemProxy */;
+			name = "DraggableDynamicModal-DraggableDynamicModal";
+			target = FB594F820F9D7D3BA0E8817E41A127F5 /* DraggableDynamicModal-DraggableDynamicModal */;
+			targetProxy = FE59523D78B3058FAD4345E8C0940227 /* PBXContainerItemProxy */;
 		};
 		FEC6805C448CD286844C5010FE6FFCD8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ZFDragableModalTransition;
-			target = 697DA6359D1E6FCBFF8880B581B9B4AF /* ZFDragableModalTransition */;
+			target = F3615CCA050B394E2504C6DD319AE409 /* ZFDragableModalTransition */;
 			targetProxy = 428C6F619FDA2D4D9432966658DBD00C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		1082BD95A690E0970357C774065EE2FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDCCC608B02C57594F5962788EABC5F9 /* DraggableDynamicModal.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DraggableDynamicModal";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/DraggableDynamicModal/ResourceBundle-DraggableDynamicModal-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = DraggableDynamicModal;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		409AEA45A7EF0675614C2F11D3D7D11F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDCCC608B02C57594F5962788EABC5F9 /* DraggableDynamicModal.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DraggableDynamicModal";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/DraggableDynamicModal/ResourceBundle-DraggableDynamicModal-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = DraggableDynamicModal;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		4A8DF89D4193FF59003E0A03C13AF568 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 88CEC7E6B502B04461B2D788293E0530 /* Pods-DraggableDynamicModal_Example.release.xcconfig */;
@@ -540,6 +672,39 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4CD5F1B6118FB60F21046DC7B0A1AD19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2729AE2E1C32B5A0466D810442B924C3 /* ZFDragableModalTransition.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZFDragableModalTransition/ZFDragableModalTransition-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZFDragableModalTransition/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZFDragableModalTransition/ZFDragableModalTransition.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ZFDragableModalTransition;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -632,9 +797,9 @@
 			};
 			name = Release;
 		};
-		7F12B1BABFA6AAFF5D10A2D6D0487BBA /* Debug */ = {
+		71ACAD07618F8E3F02933664E5619B79 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2729AE2E1C32B5A0466D810442B924C3 /* ZFDragableModalTransition.xcconfig */;
+			baseConfigurationReference = EDCCC608B02C57594F5962788EABC5F9 /* DraggableDynamicModal.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -648,16 +813,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ZFDragableModalTransition/ZFDragableModalTransition-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ZFDragableModalTransition/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/DraggableDynamicModal/DraggableDynamicModal-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DraggableDynamicModal/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ZFDragableModalTransition/ZFDragableModalTransition.modulemap";
+				MODULEMAP_FILE = "Target Support Files/DraggableDynamicModal/DraggableDynamicModal.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = ZFDragableModalTransition;
+				PRODUCT_NAME = DraggableDynamicModal;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -665,9 +832,9 @@
 			};
 			name = Debug;
 		};
-		892C612797597CFEC1A5A886E861F7BB /* Release */ = {
+		84993CD4863272595915F0BBA1BB7789 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5DC80F9449269F16F696E250729C36CF /* DraggableDynamicModal.xcconfig */;
+			baseConfigurationReference = EDCCC608B02C57594F5962788EABC5F9 /* DraggableDynamicModal.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -699,7 +866,7 @@
 			};
 			name = Release;
 		};
-		8CD8121AE68EBAB71D98451D2DE59FD9 /* Release */ = {
+		A0964DCA36827761C7F908D47169E6B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2729AE2E1C32B5A0466D810442B924C3 /* ZFDragableModalTransition.xcconfig */;
 			buildSettings = {
@@ -708,7 +875,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -721,7 +888,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ZFDragableModalTransition/ZFDragableModalTransition.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = ZFDragableModalTransition;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -730,7 +897,7 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		A99F9A036BED51BB47E93CEDB65E58B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -815,41 +982,6 @@
 			};
 			name = Release;
 		};
-		D519EE2110301542222D202D21C1F912 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5DC80F9449269F16F696E250729C36CF /* DraggableDynamicModal.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/DraggableDynamicModal/DraggableDynamicModal-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DraggableDynamicModal/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DraggableDynamicModal/DraggableDynamicModal.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = DraggableDynamicModal;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		E3298E0CEE7B93EB9FD2C179DB2E35F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C1D1E3F5BB55A58CDF55A368894E60EF /* Pods-DraggableDynamicModal_Tests.debug.xcconfig */;
@@ -890,11 +1022,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		19582FEB4B562486DA09E779F398F5E0 /* Build configuration list for PBXNativeTarget "ZFDragableModalTransition" */ = {
+		071A6E304FEA48860A5430E87832B374 /* Build configuration list for PBXNativeTarget "DraggableDynamicModal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7F12B1BABFA6AAFF5D10A2D6D0487BBA /* Debug */,
-				8CD8121AE68EBAB71D98451D2DE59FD9 /* Release */,
+				71ACAD07618F8E3F02933664E5619B79 /* Debug */,
+				84993CD4863272595915F0BBA1BB7789 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -908,6 +1040,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		34541109E2EC628CB256DBB183DBD996 /* Build configuration list for PBXNativeTarget "ZFDragableModalTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0964DCA36827761C7F908D47169E6B1 /* Debug */,
+				4CD5F1B6118FB60F21046DC7B0A1AD19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		58F1DE4808A04DD4597B5896E089C56F /* Build configuration list for PBXNativeTarget "Pods-DraggableDynamicModal_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -917,11 +1058,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8AFC869609E993E16B2BCE931345F12E /* Build configuration list for PBXNativeTarget "DraggableDynamicModal" */ = {
+		D11EE7BFB3722C13E2F12A09459FB14E /* Build configuration list for PBXNativeTarget "DraggableDynamicModal-DraggableDynamicModal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D519EE2110301542222D202D21C1F912 /* Debug */,
-				892C612797597CFEC1A5A886E861F7BB /* Release */,
+				1082BD95A690E0970357C774065EE2FF /* Debug */,
+				409AEA45A7EF0675614C2F11D3D7D11F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

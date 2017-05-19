@@ -30,11 +30,11 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'DraggableDynamicModal/Classes/**/*'
+  s.source_files = 'DraggableDynamicModal/Classes/**/*.{Swift}'
   
-  # s.resource_bundles = {
-  #   'DraggableDynamicModal' => ['DraggableDynamicModal/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'DraggableDynamicModal' => ['DraggableDynamicModal/Classes/*.{storyboard}']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'

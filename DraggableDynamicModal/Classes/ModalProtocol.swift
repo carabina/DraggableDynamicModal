@@ -33,7 +33,10 @@ public struct ModalViewControllerManager: ModalContentHandlerProtocol {
     
     public mutating func presentModal(viewController: UIViewController) {
         if self.modalParentViewController == nil {
-            self.modalParentViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ModalParentViewController") as! ModalParentViewController
+            let storyboardBundle = Bundle(for: ModalParentViewController.self)
+            let bundleUrl = storyboardBundle.url(forResource: "DraggableDynamicModal", withExtension: "bundle")
+            let bundle = Bundle(url: bundleUrl!)
+            self.modalParentViewController = UIStoryboard(name: "DraggableDynamicModal", bundle: bundle).instantiateViewController(withIdentifier: "ModalParentViewControllerID") as! ModalParentViewController
             modalParentViewController.providesPresentationContextTransitionStyle = true
             modalParentViewController.definesPresentationContext = true
             //This option is verry important

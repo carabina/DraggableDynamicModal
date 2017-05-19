@@ -11,7 +11,7 @@
         <!--Modal Parent View Controller-->
         <scene sceneID="7Yh-P6-3t0">
             <objects>
-                <viewController storyboardIdentifier="ModalParentViewController" id="CtS-oy-pxH" customClass="ModalParentViewController" customModule="DraggableDynamicModal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ModalParentViewControllerID" useStoryboardIdentifierAsRestorationIdentifier="YES" id="CtS-oy-pxH" customClass="ModalParentViewController" customModule="DraggableDynamicModal" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="nvg-di-Y36"/>
                         <viewControllerLayoutGuide type="bottom" id="dBF-Ba-4Xf"/>
