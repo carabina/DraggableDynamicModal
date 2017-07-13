@@ -47,6 +47,7 @@ public struct ModalViewControllerManager: ModalContentHandlerProtocol {
         
         let shouldSwitch = (self.childController != nil)
         self.childController = viewController
+        assert(self.childController is ModalParentViewControllerProtocol, "The child should conform to protocol ModalParentViewControllerProtocol")
         self.modalParentViewController.delegate = self.childController as! ModalParentViewControllerProtocol?
         if !shouldSwitch {
             self.parentViewController.present(modalParentViewController, animated: true, completion: nil)

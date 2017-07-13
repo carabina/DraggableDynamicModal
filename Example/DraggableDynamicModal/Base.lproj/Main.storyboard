@@ -1,19 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Gla-Le-fFl">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="nnn-ku-Pcs">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Root View Controller-->
+        <scene sceneID="anv-a5-Qkj">
+            <objects>
+                <viewController storyboardIdentifier="RootViewController" id="nnn-ku-Pcs" customClass="RootViewController" customModule="DraggableDynamicModal_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ov0-j4-hct"/>
+                        <viewControllerLayoutGuide type="bottom" id="2gg-UF-Rqh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="CTC-l2-hIZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wuj-VF-3tg">
+                                <rect key="frame" x="20" y="617" width="335" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="openModal:" destination="nnn-ku-Pcs" eventType="touchUpInside" id="CZw-20-asC"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2gg-UF-Rqh" firstAttribute="top" secondItem="Wuj-VF-3tg" secondAttribute="bottom" constant="20" id="Lfb-Zv-l9v"/>
+                            <constraint firstItem="Wuj-VF-3tg" firstAttribute="leading" secondItem="CTC-l2-hIZ" secondAttribute="leading" constant="20" id="MQI-6k-sOl"/>
+                            <constraint firstAttribute="trailing" secondItem="Wuj-VF-3tg" secondAttribute="trailing" constant="20" id="NZg-wA-se8"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HUe-js-8AL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3708" y="220"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="osD-XE-a9z">
             <objects>
-                <viewController id="Gla-Le-fFl" customClass="ViewController" customModule="DraggableDynamicModal_Example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController" id="Gla-Le-fFl" customClass="ViewController" customModule="DraggableDynamicModal_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="2tf-sb-gjJ"/>
                         <viewControllerLayoutGuide type="bottom" id="BaC-2j-Ccz"/>

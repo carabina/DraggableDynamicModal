@@ -7,3 +7,15 @@
 //
 
 import Foundation
+import UIKit
+
+class RootViewController: UIViewController {
+    
+    
+    @IBAction func openModal(_ sender: Any) {
+        let viewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ViewController") as! ViewController
+        self.present(viewController, animated: true, completion: nil)
+    }
+    
+    
+}

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		41A70BA01ECF3F5F00BD042F /* LabelModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A70B9E1ECF3F5F00BD042F /* LabelModalViewController.swift */; };
 		41A70BA11ECF3F5F00BD042F /* ValidateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A70B9F1ECF3F5F00BD042F /* ValidateViewController.swift */; };
+		41AE89ED1F17C67400F3E543 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AE89EC1F17C67400F3E543 /* RootViewController.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -33,6 +34,7 @@
 		3151A7E5EF52A0150DF03FB7 /* Pods_DraggableDynamicModal_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DraggableDynamicModal_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		41A70B9E1ECF3F5F00BD042F /* LabelModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelModalViewController.swift; sourceTree = "<group>"; };
 		41A70B9F1ECF3F5F00BD042F /* ValidateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidateViewController.swift; sourceTree = "<group>"; };
+		41AE89EC1F17C67400F3E543 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* DraggableDynamicModal_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DraggableDynamicModal_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
+				41AE89EC1F17C67400F3E543 /* RootViewController.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				41A70B9E1ECF3F5F00BD042F /* LabelModalViewController.swift */,
 				41A70B9F1ECF3F5F00BD042F /* ValidateViewController.swift */,
@@ -367,6 +370,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41AE89ED1F17C67400F3E543 /* RootViewController.swift in Sources */,
 				41A70BA11ECF3F5F00BD042F /* ValidateViewController.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				41A70BA01ECF3F5F00BD042F /* LabelModalViewController.swift in Sources */,
