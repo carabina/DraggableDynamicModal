@@ -5,6 +5,9 @@
 [![License](https://img.shields.io/cocoapods/l/DraggableDynamicModal.svg?style=flat)](http://cocoapods.org/pods/DraggableDynamicModal)
 [![Platform](https://img.shields.io/cocoapods/p/DraggableDynamicModal.svg?style=flat)](http://cocoapods.org/pods/DraggableDynamicModal)
 
+This library allows to facilitate the display of a view controller as modal with great animation and user interaction.
+                       You can easily change the child in this modal as well as the size.
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
