@@ -9,7 +9,8 @@
 Pod::Spec.new do |s|
   s.name             = 'DraggableDynamicModal'
   s.version          = '0.2.0'
-  s.summary          = 'A short description of DraggableDynamicModal.'
+  s.summary          = 'This library allows to facilitate the display of a view controller as modal with great animation and user interaction.
+                         You can easily change the child in this modal as well as the size.
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
